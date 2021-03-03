@@ -8,7 +8,7 @@ class Queue:
     def dequeue(self):
         if len(self.queue) < 1:
             return None
-        return self.queue.pop()
+        return self.queue.pop(0)
 
 
 queue = Queue()
